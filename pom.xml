@@ -77,3 +77,15 @@
 	</build>
 
 </project>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>HTS1-releases</name>
+        <url>https://hts1.jfrog.io/artifactory/default-maven-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>HTS1-snapshots</name>
+        <url>https://hts1.jfrog.io/artifactory/default-maven-local</url>
+    </snapshotRepository>
+</distributionManagement>
